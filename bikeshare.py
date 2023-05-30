@@ -154,9 +154,9 @@ def display_raw(df):
     raw = 0
     while True:
         msg = input("\nDo you want to display 5 raws of data as well, 'Y' OR 'N'?\n").lower()
-        if msg == 'n' or msg == 'n ':
+        if msg == 'n' or msg == 'n ' or msg == 'n  ':
             break
-        elif msg == 'y' or msg == 'y ':
+        elif msg == 'y' or msg == 'y ' or msg == 'y  ':
             print(df[raw:raw+5])
             raw += 5
         else:
