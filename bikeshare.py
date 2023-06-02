@@ -160,7 +160,7 @@ def display_raw(df):
             print(df[raw:raw+5])
             raw += 5
         else:
-            print("\nPlease enter 'y' OR 'n'")
+            print("\nPlease Enter 'Y' OR 'N'")
 
 
 def main():
